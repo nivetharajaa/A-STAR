@@ -156,7 +156,7 @@ J 0 <br>
 Path found: ['A', 'F', 'G', 'I', 'J']
 
 ### PROGRAM:
-
+```
 #define fuction to return neighbor and its distance
 #from the passed node
 def get_neighbors(v):
@@ -166,7 +166,7 @@ def get_neighbors(v):
         return None
 def heuristic(n):
     return H_dist[n]
-```         
+        
 Graph_nodes = {
     'A': [('B', 6), ('F', 3)],
     'B': [('A', 6), ('C', 3), ('D', 2)],
