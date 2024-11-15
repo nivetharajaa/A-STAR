@@ -50,7 +50,7 @@
 
 ``````
 ### PROGRAM:
-
+```
 NIVETHA A
 
 212222230101
@@ -119,7 +119,7 @@ while len(open_set) > 0:
     closed_set.add(n)
 print('Path does not exist!')
 return None
-
+```
 <hr>
 <h2>Sample Graph I</h2>
 <hr>
