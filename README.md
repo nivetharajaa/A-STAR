@@ -54,7 +54,7 @@
 NIVETHA A
 
 212222230101
-```
+
 from collections import defaultdict
 H_dist ={}
 def aStarAlgo(start_node, stop_node):
@@ -119,7 +119,7 @@ while len(open_set) > 0:
     closed_set.add(n)
 print('Path does not exist!')
 return None
-```
+
 <hr>
 <h2>Sample Graph I</h2>
 <hr>
